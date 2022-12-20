@@ -1,0 +1,70 @@
+ongoing$2020.03 ~ 2023.02$차세대 HW 기술중심의 저지연·고확장성을 제공하는 분산파일 시스템 개발$한국연구재단
+ongoing$2019.06 ~ 2022.02$이종 클라우드 시스템을 위한 SW-HW 융합 연구$한국연구재단
+ongoing$2019.04 ~ 2022.12$차세대 공유/혼성 메모리 기반 통합 데이터 모델을 제공하는 메모리 중심 운영체제 기술개발$과학기술정보통신부
+ongoing$2018.05 ~ 2020.04$Non Von-Neumann Architecture$삼성전자
+ongoing$2017.09 ~ 2020.12$GPU 기반의 기계학습 플랫폼을 위한 시스템 SW 연구$과학기술정보통신부
+ongoing$2017.04 ~ 2021.03$(SW 스타랩)신뢰할 수 있는 서비스 중심의 클라우드 소프트웨어 연구$미래창조과학부
+ongoing$2015.07 ~ 2020.06$하드웨어 기반 악성 행위 탐지 및 방어 기법$삼성전자
+past$2018.02 ~ 2019.01$비휘발성 메모리를 위한 가상화 기반 분산 메모리 확장 기술 연구$SK Hynix
+past$2016.06 ~ 2019.05$고성능 클라우드 시스템을 위한 SW-HW 융합 연구$한국연구재단
+past$2016.06 ~ 2019.05$가상화 및 비가상화 시스템을 혼용하는 새로운 클라우드 모델 개발$한국연구재단
+past$2017.11 ~ 2018.02$ 고가용성 분산 기계학습 플랫폼을 위한 시스템 SW 연구$한국연구재단
+past$2016.06 ~ 2016.12$랙스케일 기계학습 서비스를 위한 이론/시스템 융합연구$공과대학 Initiative 융합연구
+past$2011.12 ~ 2016.08$UX 지향 모바일 SW 플랫폼 개발$지식경제부
+past$2013.05 ~ 2016.04$클라우드 컴퓨팅을 위한 미래 멀티코어 아키텍처 연구$한국연구재단
+past$2015.11 ~ 2016.03$뉴로몰픽 시뮬레이션 응용 개선을 통한 슈퍼컴퓨팅 개발 방향 전략 연구$KAIST
+past$2015.03 ~ 2016.02$하이브리드 메모리를 위한 HW 및 SW 시스템 지원 방안 연구$SK하이닉스
+past$2015.03 ~ 2016.02$HBM(High Bandwidth Memory)를 위한 멀티 코어 아키텍처 연구$SK하이닉스
+past$2015.04 ~ 2015.11$모바일 사파리 보안위협 검증 기술 연구$국가보안기술연구소
+past$2012.05 ~ 2015.04$사용자 인터랙션 중심의 스마트폰 에너지 관리 기술 연구$한국연구재단
+past$2013.10 ~ 2014.09$메모리가 집적된 테라바이트 밴드폭 3차원 반도체 설계 및 테스트 방법론 연구$SK하이닉스
+past$2013.05 ~ 2014.04$에너지 효율을 고려한 이종 멀티 코어 모바일 프랫폼 기술연구$LG전자
+past$2009.03 ~ 2013.02$신뢰성 컴퓨팅(Trustworthy Computing) 기반 기술 개발$지식경제부
+past$2012.04 ~ 2012.11$모바일 플랫폼 취약점 기반기술 연구$국가보안기술연구소
+past$2011.10 ~ 2012.06$미래 매니 코어에서 코어간 성능 편차가 소프트웨어 시스템에 미치는 영향 연구$마이크로소프트
+past$2010.09 ~ 2012.08$미래 멀티코어와 시스템 가상화 기술의 융합 연구$한국연구재단
+past$2010.03 ~ 2010.10$Touch & Search 웹 검색 서버 아키텍처 기술 개발$삼성전자
+past$2011.02 ~ 2011.09$사이언스 클라우드를 위한 가상 자원 관리 기술 연구$한국과학기술정보연구원
+past$2010.03 ~ 2010.12$Linux 기반 Open Platform을 위한 신뢰성 컴퓨팅 기술 개발$삼성전자
+past$2010.02 ~ 2010.09$멀티 코어 및 이종 컴퓨팅 환경에서의 과학계산용 가상화 기술 연구$한국과학기술정보연구원
+past$2008.01 ~ 2008.12$HLNAND에 최적화된 FTL 및 I/O Scheduler 구조 개발$INDILINX
+past$2008.01 ~ 2008.12$재구성 가능한 무선 단말을 위한 SCA 코어 프레임워크 연구$ITRC
+past$2007.07 ~ 2008.06$스토리지 접근 패턴에 따른 NAND FTL 기술 개발$KOSEF
+past$2007.07 ~ 2009.06$Research on Storage System Technology for Large-scale Internet Service$KOSEF
+past$2006.09 ~ 2009.09$네트워크 융합 모바일 플랫폼을 위한 임베디드 소프트웨어 기술$ITRC
+past$2006.07 ~ 2011.12$Development of Hard Real-time Supporting Technique for Micro/Low-power Embedded Operating System$DSRC, ADD
+past$2006.05 ~ 2009.03$A Distributed Storage System for Large-scale Online Portal Sites$NHN
+past$2006.03 ~ 2009.02$Research on Embedded Systems for Next Generation Mobile Devices$KOSEF Ministry of Science and Technology
+past$2003.08 ~ 2011.07$A Platform Development for Ubiquitous/Embedded Systems$ITRC
+past$$Research on tools for performance and stability of embedded SW$ITRC
+past$$Virtualiation-based management technique for enforcing system stability$KRF
+past$2006.10 ~ 2007.10$Research on NAND Flash File System for Portable Devices$Samsung
+past$2006.04 ~ 2007.03$Fast Startup of DTV System Using Suspend and Resume$Samsung
+past$2006.09 ~ 2007.01$Real-time Performance Improvement of Embedded Linux Kernel$ETRI
+past$2005.04 ~ 2006.03$Digital TV Program Optimization$Samsung
+past$2005.07 ~ 2005.11$Performance Measurement of Real-time Operating System$ETRI
+past$2004.05 ~ 2004.12$Development of Cluster Computing Standard Prototype$KISTI
+past$1999.09 ~ 2004.09$Development of High Performance Cluster Computer$Natonal Research Laboratory$Ministry of Science and Technology
+past$1996 ~ 1997$Plant Monitoring/Controlling System$LG Honeywell
+past$1995 ~ 1996$Design and Implementation of Parallel Randering System on Distributed-Memory, Message-Passing Multicomputer$
+past$1994 ~ 1996$Development of Security System for Communication with Public-Key Method$
+past$1994 ~ 1996$Development of Techiniques for Connectionless Service with Public-Key Method$
+past$1994 ~ 1996$Development of Techiniques for Connectionless Service for ATM Lan$
+past$1993 ~ 1996$Design and Implementation of Multiprossor with Shared-Memory using SCI$
+past$1993 ~ 1996$Research on Large-Capacity, Fault-Tolerent ATM Switch$
+past$1993 ~ 1995$Development of a Parallel Computer Using Scalable Coherent Interface$CAIR
+past$1993 ~ 1995$Development of a Hardware Router for High Performance Multicomputers$KAIST
+past$1992 ~ 1996$Research on Design and Implementation of High-Performance Parallel Computer$
+past$1992 ~ 1995$Development of a Recursive Ring Structured Massively Parallel Computer$Ministry of Science and Technology
+past$1991 ~ 1993$Design and Implementation of Interface Board for Video and Audio Data Processing$
+past$1991 ~ 1993$Research on Wireless Communication on Intelligent Notepad Computer$
+past$1991 ~ 1993$Research on General-purpose Parallel Neuro-Computer$
+past$1991 ~ 1992$Research on Message Routing Technique and Performance Evaluation of Transputer-based Multicomputer$
+past$1990 ~ 1994$Design and Implementation of RISC Microprocessor Chip with VLSI Technique and Related Systems$
+past$1990 ~ 1994$The Design of PC Chipset Microcode$
+past$1990 ~ 1991$Research on Test of Protocol Correctness$
+past$1990 ~ 1991$Research on Computer System Architecture for Processing Multimedia and Knowledge Information$
+past$1989 ~ 1990$Parallel Simulation System for Neural Network Model$
+past$1989 ~ 1990$Parallel Processing System based on Logic Language$
+past$1989 ~ 1990$Research on Object Oriented Operating System Architecture$
+past$1984 ~ 1989$The Development of Next Generation Computer System$

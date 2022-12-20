@@ -1,0 +1,135 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% load contains %}
+{% block container %}
+<!-- *****************************************************************************************************************
+ BLUE WRAP
+ ***************************************************************************************************************** -->
+<div id="blue">
+  <div class="container">
+    <div class="row">
+      <h3>Publications.</h3>
+    </div><!-- /row -->
+  </div> <!-- /container -->
+</div><!-- /blue -->
+
+<!-- *****************************************************************************************************************
+ PUBLICATIONS 
+ ***************************************************************************************************************** -->
+<div class="container mtb">
+  <div class="row">
+    <ul id="pub_Tab" class="nav nav-tabs nav-justified" role="tablist">
+      <li class="active"><a href="#all" role="tab" data-toggle="tab">All</a></li>
+      <li class=""><a href="#international_conference" role="tab" data-toggle="tab">International Conference</a></li>
+      <li class=""><a href="#international_journal" role="tab" data-toggle="tab">International Journal</a></li>
+      <li class=""><a href="#domestic_conference" role="tab" data-toggle="tab">Domestic Conference</a></li>
+      <li class=""><a href="#domestic_journal" role="tab" data-toggle="tab">Domestic Journal</a></li>
+    </ul>
+    <div class=col-lg-12>
+      <div class="tab-content">
+        <div class="tab-pane active" id="all">
+          <h2>ALL</h2>
+          <ul>
+            {% for elem in all_pub %}
+            {% if elem.print_year %}
+                <h3>{{elem.year}}</h3> 
+            {% endif %}
+            {% if elem.url %}
+              {% if elem.url|contains:"pdf"%}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">PDF</a>]</li>
+              {% else %}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">LINK</a>]</li>
+              {% endif %}
+            {% else %}
+                <li>{{elem.paper}}</li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tab-pane" id="international_conference">
+          <h2>International Conference</h2>
+          <ul>
+            {% for elem in international_conference %}
+            {% if elem.print_year %}
+                <h3>{{elem.year}}</h3> 
+            {% endif %}
+            {% if elem.url %}
+              {% if elem.url|contains:"pdf"%}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">PDF</a>]</li>
+              {% else %}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">LINK</a>]</li>
+              {% endif %}
+            {% else %}
+                <li>{{elem.paper}}</li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tab-pane" id="international_journal">
+          <h2>International Journal</h2>
+          <ul>
+            {% for elem in international_journal %}
+            {% if elem.print_year %}
+                <h3>{{elem.year}}</h3> 
+            {% endif %}
+            {% if elem.url %}
+              {% if elem.url|contains:"pdf"%}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">PDF</a>]</li>
+              {% else %}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">LINK</a>]</li>
+              {% endif %}
+            {% else %}
+                <li>{{elem.paper}}</li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tab-pane" id="domestic_conference">
+          <h2>Domestic Conference</h2>
+          <ul>
+            {% for elem in domestic_conference %}
+            {% if elem.print_year %}
+                <h3>{{elem.year}}</h3> 
+            {% endif %}
+            {% if elem.url %}
+              {% if elem.url|contains:"pdf"%}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">PDF</a>]</li>
+              {% else %}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">LINK</a>]</li>
+              {% endif %}
+            {% else %}
+                <li>{{elem.paper}}</li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+        <div class="tab-pane" id="domestic_journal">
+          <h2>Domestic Journal</h2>
+          <ul>
+            {% for elem in domestic_journal %}
+            {% if elem.print_year %}
+                <h3>{{elem.year}}</h3> 
+            {% endif %}
+            {% if elem.url %}
+              {% if elem.url|contains:"pdf"%}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">PDF</a>]</li>
+              {% else %}
+                <li>{{elem.paper}} [<a href="{{elem.url}}">LINK</a>]</li>
+              {% endif %}
+            {% else %}
+                <li>{{elem.paper}}</li>
+            {% endif %}
+            {% endfor %}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+</div><! --/container -->
+
+{% endblock %}
+{% block script%}
+    <script>
+        $(".navbar-nav li").eq(5).addClass("active")
+    </script>
+{% endblock %}

@@ -1,0 +1,164 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block container %}
+<!-- *****************************************************************************************************************
+ BLUE WRAP
+ ***************************************************************************************************************** -->
+<div id="blue">
+  <div class="container">
+    <div class="row">
+      <h3>Members.</h3>
+    </div><!-- /row -->
+  </div> <!-- /container -->
+</div><!-- /blue -->
+
+ 
+<!-- *****************************************************************************************************************
+ MEMBERS
+ ***************************************************************************************************************** -->
+
+<div class="container mtb">
+  <!-- *****************************************************************************************************************
+   PROFESSOR 
+   ***************************************************************************************************************** -->
+    <div class="row row-centered" align="center">
+      <h3 class="mb">Faculty</h3>
+      
+      <div class="col-sm-3">
+         <div class="he-wrap tpl6">
+           <a href="~maeng/">
+               <img src="{% static 'img/professor/SeungryoulMaeng.png' %}" alt="" class="member-profile">
+           </a>
+         </div><!-- he wrap -->
+         <h4><a href="http://calab.kaist.ac.kr:8080/~maeng/">Seungryoul Maeng</a></h4>
+         <h5 class="ctitle">Professor</h5>
+      </div><! --/col-sm-3 -->
+
+      <div class="col-sm-3">
+         <div class="he-wrap tpl6">
+           <a href="~jhuh/">
+               <img src="{% static 'img/professor/JaehyukHuh.png' %}" alt="" class="member-profile">
+           </a>
+         </div><!-- he wrap -->
+         <h4><a href="http://calab.kaist.ac.kr/~jhuh/">Jaehyuk Huh</a></h4>
+         <h5 class="ctitle">Professor</h5>
+      </div><! --/col-sm-3 -->
+      <div class="col-sm-3">
+         <div class="he-wrap tpl6">
+           <a href="https://sites.google.com/view/yjkwon/home">
+               <img src="{% static 'img/professor/YoungjinKwon.png' %}" alt="" class="member-profile">
+           </a>
+         </div>
+         <h4><a href="https://sites.google.com/view/yjkwon/home">Youngjin Kwon</a></h4>
+         <h5 class="ctitle">Professor</h5>
+      </div>
+      <div class="col-sm-3">
+         <div class="he-wrap tpl6">
+           <a href="https://jongse-park.github.io/">
+               <img src="{% static 'img/professor/JongsePark.jpg' %}" alt="" class="member-profile">
+           </a>
+         </div>
+         <h4><a href="https://jongse-park.github.io/">Jongse Park</a></h4>
+         <h5 class="ctitle">Professor</h5>
+      </div>
+      <div class="col-sm-3">
+         <div class="he-wrap tpl6">
+           <a href="~jwcho/">
+               <img src="{% static 'img/professor/JungWanCho.png' %}" alt="" class="member-profile">
+           </a>
+         </div><!-- he wrap -->
+         <h4><a href="http://calab.kaist.ac.kr:8080/~jwcho/">JungWan Cho</a></h4>
+         <h5 class="ctitle">Emeritus Professor</h5>
+      </div><! --/col-sm-3 -->
+    
+     </div><! --/row -->
+
+     <div class="hline"></div>
+  <!-- *****************************************************************************************************************
+   Postdoc
+   ***************************************************************************************************************** -->
+    {% if postdoc|length > 0 %}
+    <div class="row row-centered" align="center">
+    <h3>Postdoctoral Researchers</h3>
+
+    <div id="postdoc">
+        {% for member in postdoc %}
+            <div class="col-sm-4">
+        {% if member.url %}
+            <h4><a href="{{member.url}}">{{member.name}}</a></h4>
+        {% else %}
+            <h4>{{member.name}}</h4>
+        {% endif %}
+    </div>
+    {% endfor %}
+    </div><!-- div postdoc -->
+    </div><!-- div row -->
+    {%  endif %}
+
+  <!-- *****************************************************************************************************************
+   PH.D 
+   ***************************************************************************************************************** -->
+   <div class="row row-centered" align="center">
+     <h3>Ph.D. Students</h3>
+     
+     <div id="phd">
+         {% for member in phd %}
+         <div class="col-sm-4">
+             {% if member.url %}
+             <h4><a href="{{member.url}}">{{member.name}}</a></h4>
+             {% else %}
+             <h4>{{member.name}}</h4>
+             {% endif %}
+         </div>
+         {% endfor %}
+     </div><!-- div phd -->
+   </div><!-- div row -->
+
+  <!-- *****************************************************************************************************************
+   MS 
+   ***************************************************************************************************************** -->
+   <div class="row row-centered" align="center">
+     <h3>MS. Students</h3>
+
+     <div id="ms">
+         {% for member in ms %}
+         <div class="col-sm-4">
+             {% if member.url %}
+             <h4><a href="{{member.url}}">{{member.name}}</a></h4>
+             {% else %}
+             <h4>{{member.name}}</h4>
+             {% endif %}
+         </div>
+         {% endfor %}
+     </div><!-- div ms -->
+   </div><!-- row -->
+   
+   <div class="hline"></div>
+
+  <!-- *****************************************************************************************************************
+   ALUMNI 
+   ***************************************************************************************************************** -->
+   <div class="row row-centered" align="center">
+     <h3>Alumni</h3>
+     
+     <div id="alumni">
+         {% for member in alumni %}
+         <div class="col-sm-4">
+             {% if member.url %}
+             <h4><a href="{{member.url}}">{{member.name}}</a></h4>
+             {% else %}
+             <h4>{{member.name}}</h4>
+             {% endif %}
+         </div>
+         {% endfor %}
+     </div><!-- div alumni -->
+
+   </div><!-- row -->
+
+</div><!-- container -->
+{% endblock %}
+{% block script%}
+    <script>
+      $(".navbar-nav li").eq(1).addClass("active")
+    </script>
+{% endblock %}

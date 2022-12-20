@@ -1,0 +1,81 @@
+{% extends "base.html" %}
+{% load staticfiles %}
+{% block container %}
+<!-- *****************************************************************************************************************
+ BLUE WRAP
+ ***************************************************************************************************************** -->
+<div id="blue">
+  <div class="container">
+    <div class="row">
+      <h3>Research.</h3>
+    </div><!-- /row -->
+  </div> <!-- /container -->
+</div><!-- /blue -->
+
+ 
+<!-- *****************************************************************************************************************
+ RESEARCH AREA 
+ ***************************************************************************************************************** -->
+<div class="container mtb">
+  <div class="row">
+    <center>
+      <img src="{% static 'img/others/research_area.png' %}">
+    </center>
+    <div class=col-lg-12>
+      <h3>Systems for ML</h3>
+      <ul>
+        <li>
+            ML requires an unprecedented scale of computing power and necessitates the design and development of specialized computing stacks that offer otherwise-unachievable system performance and efficiency.
+            We take a holistic approach by considering hardware, software, and algorithm together, and build full stacks for efficient and performant ML computing.
+            These stacks encompass almost the entire layers in computing stacks, such as computer architecture, operating systems, runtime software, compiler, programming languages, and algorithms.  
+        </li>
+      </ul>
+   </div>
+
+    <div class=col-lg-12>
+      <h3>Processor and memory system design for edge-cloud systems</h3>
+      <ul>
+        <li>
+            As the applications are diversified and the computing is needed in various circumstances, the importance of processor and memory system design for various computing platforms—from edge to cloud—constantly increases.
+            The diversity and heterogeneity pose numerous research challenges in designing processor and memory architecture, for which we aim to resolve.
+        </li>
+      </ul>
+    </div>
+
+    <div class=col-lg-12>
+      <h3>Operating system support for emerging memory technologies</h3>
+      <ul>
+        <li>
+            Emerging memory technologies promise new capabilities for future computing systems yet require heavy operating system support for their effective use.
+            We build next-generation operating systems that are capable of effectively leveraging the new memory technologies to boost the system performance.  
+        </li>
+      </ul>
+    </div>
+
+    <div class=col-lg-12>
+      <h3>Trusted computing for system security</h3>
+      <ul>
+        <li>
+            As the security and privacy become a significant concern for modern computing environment, the system security technologies have attained an increasing attention.
+            We look at security and privacy problems in the perspective of system development, and explore hardware-software co-designed approaches to offer the trustworthy system environment for application users.  
+        </li>
+      </ul>
+    </div>
+
+    <div class=col-lg-12>
+      <h3>Lab Seminars</h3>
+      <ul>
+        <li><a href="http://seminar.casys.kaist.ac.kr/">CASYS SEMINAR</a> : Computer System and Architecture Reading Group.</li>
+        <li><a href="http://sigarch.kaist.ac.kr/">SIGARCH</a> : Special Interest Group in computer ARCHitecture.</li>
+        <li><a href="http://sigops.kaist.ac.kr/">SIGOPS</a> : Special Interest Group in OPerating Systems.</li>
+        <li><a href="http://seminar.casys.kaist.ac.kr/sigml/">SIGML</a> : Special Interest Group in Machine Learning.</li>
+      </ul>
+    </div>
+  </div><! --/row -->
+</div><! --/container -->
+{% endblock %}
+{% block script%}
+  <script>
+    $(".navbar-nav li").eq(4).addClass("active")
+  </script>
+{% endblock %}
